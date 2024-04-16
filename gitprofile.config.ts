@@ -19,7 +19,7 @@ const CONFIG = {
         sortBy: 'stars', // Sort projects by 'stars' or 'updated'
         limit: 8, // How many projects to display.
         exclude: {
-          forks: false, // Forked projects will not be displayed if set to true.
+          forks: true, // Forked projects will not be displayed if set to true.
           projects: [], // These projects will not be displayed. example: ['arifszn/my-project1', 'arifszn/my-project2']
         },
       },
@@ -52,48 +52,36 @@ const CONFIG = {
     },
   },
   seo: {
-    title: 'Portfolio of Ariful Alam',
+    title: 'Portfolio of Luigi Penza',
     description: '',
-    imageURL: '',
+    imageURL: 'image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAJYAAACUCAMAAABGFyDbAAAAZlBMVEX///8AAADp6elFRUWlpaXNzc2zs7PKysr5+fmqqqrU1NSUlJSXl5ddXV26urr8/PzCwsJvb281NTXa2tokJCTh4eE6Ojqenp5TU1NNTU3v7++AgIAYGBhpaWkLCwt2dnaKioouLi5tQaUEAAACoklEQVR4nO2bW3eqMBBG5SZXQWoRi6L0///JA0oiy5NARybIw7ffhMWwCZOZtItsNgAAAAAAAExQHfytWyZxR+mmXhF80iYoon2Sf1kqvndlGtnLOxXueXdUGkmuTp4cljOyo/I0LjRku4hTEN6cvzu1uOaVovCbpLSIVlbs031LmoZJU08k1oKj9YqdxvXkG11eqyWz/XiFWneiepVarZi6qH5aa1NpZ8BHtWxt6kMLWtCCFrSgBS1oQQta0IIWtKAFLWhBC1rQgha0oAUtaEELWtCCFrSgBS1oLaXF8x0ft1aYrVAry30WK2at/JfHilXL/rGYBotTyz5aO64PV/VaJTFS2F4TMVmNaNFuETTtJQ6XlVZrV5HCePeL+L6h1WidSEmS3e4X5WxWGq2EEqJK+qtoA0zXOouzh3A7SSIiNHxWSq1QnEw1s0GJwzhYKq1YnAspVryfZv+vJcPTrPiKg1JLjlVJsmJrO2otmVeJ+u46SHOXrCXnoEuzsniWWRot2QepVryvsK1Mw+A3cZSW7az1/cFtEFy+wS3R6sJttRkEd0QfJFXRjpTbajAucgnnU63i0Vu8Q/4MLnpHdKFqMc/CVuEqQv8W/aHDmICKC/9OpWclF2tRW7/dQAN1cf0HROjrvj9QUaWsmt8qen3iYEe1OhrYBicSvul/Z4QtZj0GrOx+e4gsDQ3ZysT+t77FHMXvM9kqHAv/Lo/BkqWB2nIMtMKOvkIJK2p7bnsoex3teGSSyA5yGX32UFYeKy2RHd51yuKV2sz+3XtHlsWw8D0aPuffXwNO5p54BkE3WIaeeAaxkd4/l677sS8q5+ObWFTO52zVRorhTKyvTxuoSPn++8pI9uN9WkGFt8Z0b+fh6qr7nXVaAQAAAACAd/kHPcAgqXqtQrMAAAAASUVORK5CYII=',
   },
   social: {
-    linkedin: 'ariful-alam',
-    twitter: 'arif_szn',
-    mastodon: 'arifszn@mastodon.social',
+    linkedin: 'Luigi Penza',
+    twitter: '',
+    mastodon: '',
     researchGate: '',
     facebook: '',
     instagram: '',
     youtube: '', // example: 'pewdiepie'
     dribbble: '',
     behance: '',
-    medium: 'arifszn',
-    dev: 'arifszn',
-    stackoverflow: '', // example: '1/jeff-atwood'
+    medium: '',
+    dev: '',
+    stackoverflow: 'Luigi Penza', // example: '1/jeff-atwood'
     skype: '',
     telegram: '',
-    website: 'https://www.arifszn.com',
+    website: 'https://hex-adecimal.github.io',
     phone: '',
-    email: 'arifulalamszn@gmail.com',
+    email: 'luigi.penza08@gmail.com',
   },
   resume: {
     fileUrl:
       'https://www.w3.org/WAI/ER/tests/xhtml/testfiles/resources/pdf/dummy.pdf', // Empty fileUrl will hide the `Download Resume` button.
   },
   skills: [
-    'PHP',
-    'Laravel',
-    'JavaScript',
-    'React.js',
-    'Node.js',
-    'Nest.js',
-    'MySQL',
-    'PostgreSQL',
-    'Git',
-    'Docker',
-    'PHPUnit',
-    'CSS',
-    'Antd',
-    'Tailwind',
+    'Swift',
+    'C'
   ],
   experiences: [
     {
@@ -101,13 +89,6 @@ const CONFIG = {
       position: 'Position',
       from: 'September 2021',
       to: 'Present',
-      companyLink: 'https://example.com',
-    },
-    {
-      company: 'Company Name',
-      position: 'Position',
-      from: 'July 2019',
-      to: 'August 2021',
       companyLink: 'https://example.com',
     },
   ],
