@@ -57,7 +57,7 @@ const CONFIG = {
     imageURL: 'image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAJYAAACUCAMAAABGFyDbAAAAZlBMVEX///8AAADp6elFRUWlpaXNzc2zs7PKysr5+fmqqqrU1NSUlJSXl5ddXV26urr8/PzCwsJvb281NTXa2tokJCTh4eE6Ojqenp5TU1NNTU3v7++AgIAYGBhpaWkLCwt2dnaKioouLi5tQaUEAAACoklEQVR4nO2bW3eqMBBG5SZXQWoRi6L0///JA0oiy5NARybIw7ffhMWwCZOZtItsNgAAAAAAAExQHfytWyZxR+mmXhF80iYoon2Sf1kqvndlGtnLOxXueXdUGkmuTp4cljOyo/I0LjRku4hTEN6cvzu1uOaVovCbpLSIVlbs031LmoZJU08k1oKj9YqdxvXkG11eqyWz/XiFWneiepVarZi6qH5aa1NpZ8BHtWxt6kMLWtCCFrSgBS1oQQta0IIWtKAFLWhBC1rQgha0oAUtaEELWtCCFrSgBS1oLaXF8x0ft1aYrVAry30WK2at/JfHilXL/rGYBotTyz5aO64PV/VaJTFS2F4TMVmNaNFuETTtJQ6XlVZrV5HCePeL+L6h1WidSEmS3e4X5WxWGq2EEqJK+qtoA0zXOouzh3A7SSIiNHxWSq1QnEw1s0GJwzhYKq1YnAspVryfZv+vJcPTrPiKg1JLjlVJsmJrO2otmVeJ+u46SHOXrCXnoEuzsniWWRot2QepVryvsK1Mw+A3cZSW7az1/cFtEFy+wS3R6sJttRkEd0QfJFXRjpTbajAucgnnU63i0Vu8Q/4MLnpHdKFqMc/CVuEqQv8W/aHDmICKC/9OpWclF2tRW7/dQAN1cf0HROjrvj9QUaWsmt8qen3iYEe1OhrYBicSvul/Z4QtZj0GrOx+e4gsDQ3ZysT+t77FHMXvM9kqHAv/Lo/BkqWB2nIMtMKOvkIJK2p7bnsoex3teGSSyA5yGX32UFYeKy2RHd51yuKV2sz+3XtHlsWw8D0aPuffXwNO5p54BkE3WIaeeAaxkd4/l677sS8q5+ObWFTO52zVRorhTKyvTxuoSPn++8pI9uN9WkGFt8Z0b+fh6qr7nXVaAQAAAACAd/kHPcAgqXqtQrMAAAAASUVORK5CYII=',
   },
   social: {
-    linkedin: 'Luigi Penza',
+    linkedin: 'luigipenza811',
     twitter: '',
     mastodon: '',
     researchGate: '',
@@ -68,7 +68,7 @@ const CONFIG = {
     behance: '',
     medium: '',
     dev: '',
-    stackoverflow: 'Luigi Penza', // example: '1/jeff-atwood'
+    stackoverflow: '19336133/luigi-penza', // example: '1/jeff-atwood'
     skype: '',
     telegram: '',
     website: 'https://hex-adecimal.github.io',
