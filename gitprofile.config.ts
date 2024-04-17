@@ -16,7 +16,7 @@ const CONFIG = {
       header: 'Github Projects',
       mode: 'automatic', // Mode can be: 'automatic' or 'manual'
       automatic: {
-        sortBy: 'stars', // Sort projects by 'stars' or 'updated'
+        sortBy: 'updated', // Sort projects by 'stars' or 'updated'
         limit: 8, // How many projects to display.
         exclude: {
           forks: true, // Forked projects will not be displayed if set to true.
@@ -28,7 +28,7 @@ const CONFIG = {
         projects: ['arifszn/gitprofile', 'arifszn/pandora'], // List of repository names to display. example: ['arifszn/my-project1', 'arifszn/my-project2']
       },
     },
-    external: {
+    /*external: {
       header: 'My Projects',
       // To hide the `External Projects` section, keep it empty.
       projects: [
@@ -49,13 +49,13 @@ const CONFIG = {
           link: 'https://example.com',
         },
       ],
-    },
+    },*/
   },
 
   seo: {
     title: 'Portfolio of Luigi Penza',
-    description: '',
-    imageURL: 'https://t4.ftcdn.net/jpg/05/53/37/45/240_F_553374592_yTB6XrshpvWfm4ufZYJLHzJkdgDk72ks.jpg',
+    description: 'CS student at Federico II, Student at Apple Developer Academy',
+    imageURL: 'https://t4.ftcdn.net/jpg/07/65/17/85/240_F_765178525_UfmSUIP8E40zatqSVIRzTIGaysGom2sD.jpg',
   },
 
   social: {
@@ -109,7 +109,7 @@ const CONFIG = {
 
   educations: [
     {
-      institution: 'Apple Academy',
+      institution: 'Stuent at Apple Developer Academy',
       degree: '...',
       from: 'Present',
       to: '2023',
@@ -128,7 +128,7 @@ const CONFIG = {
     },
   ],
 
-  publications: [
+  /*publications: [
     {
       title: 'Publication Title',
       conferenceName: '',
@@ -147,7 +147,7 @@ const CONFIG = {
       description:
         'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
     },
-  ],
+  ],*/
 
   // Display articles from your medium or dev account. (Optional)
   blog: {
