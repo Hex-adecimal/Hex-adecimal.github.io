@@ -51,11 +51,13 @@ const CONFIG = {
       ],
     },
   },
+
   seo: {
     title: 'Portfolio of Luigi Penza',
     description: '',
     imageURL: 'https://t4.ftcdn.net/jpg/05/53/37/45/240_F_553374592_yTB6XrshpvWfm4ufZYJLHzJkdgDk72ks.jpg',
   },
+
   social: {
     linkedin: 'luigipenza811',
     twitter: '',
@@ -75,18 +77,18 @@ const CONFIG = {
     phone: '',
     email: 'luigi.penza08@gmail.com',
   },
+
   resume: {
     fileUrl:
       'https://export-download.canva.com/Ee3gk/DAFjjvEe3gk/18/0-1809746279891683557.pdf?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAJHKNGJLC2J7OGJ6Q%2F20240417%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20240417T003058Z&X-Amz-Expires=31314&X-Amz-Signature=ead75fbc3b4183d46114684c3f79897b0bbba44a3dae6005c8a96d4ae0c8c726&X-Amz-SignedHeaders=host&response-content-disposition=attachment%3B%20filename%2A%3DUTF-8%27%27Minimalist%2520White%2520and%2520Grey%2520Professional%2520Resume.pdf&response-expires=Wed%2C%2017%20Apr%202024%2009%3A12%3A52%20GMT', // Empty fileUrl will hide the `Download Resume` button.
   },
+
   skills: [
-    'Swift',
-    'C',
-    'Python',
-    'Java',
-    'SQL',
-    'Matlab',
+    // 'C', 'C++', 'C#', 'Matlab', 'Python', 'iOS', 'Swift', 'SwiftUI', 'Android', 'Java',  'SQL', 'PostgreSQL', 'Git', 'Github',
+
+    'C', 'Matlab', 'Python', 'Swift', 'Java', 'SQL', 'Github',
   ],
+
   experiences: [
     {
       company: 'Company Name',
@@ -104,6 +106,7 @@ const CONFIG = {
       link: '',
     },
   ],
+
   educations: [
     {
       institution: 'Apple Academy',
@@ -124,6 +127,7 @@ const CONFIG = {
       to: '2020',
     },
   ],
+
   publications: [
     {
       title: 'Publication Title',
@@ -144,6 +148,7 @@ const CONFIG = {
         'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
     },
   ],
+
   // Display articles from your medium or dev account. (Optional)
   blog: {
     source: 'dev', // medium | dev
