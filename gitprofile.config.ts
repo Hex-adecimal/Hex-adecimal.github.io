@@ -84,12 +84,10 @@ const CONFIG = {
   },
 
   skills: [
-    // 'C', 'C++', 'C#', 'Matlab', 'Python', 'iOS', 'Swift', 'SwiftUI', 'Android', 'Java',  'SQL', 'PostgreSQL', 'Git', 'Github',
-
-    'C', 'Matlab', 'Python', 'Swift', 'Java', 'SQL', 'Github',
+    'C', 'C++', 'C#', 'Matlab', 'Python', 'iOS', 'Swift', 'SwiftUI', 'Android', 'Java',  'SQL', 'PostgreSQL', 'Git', 'Github',
   ],
 
-  experiences: [
+  /*experiences: [
     {
       company: 'Company Name',
       position: 'Position',
@@ -97,7 +95,7 @@ const CONFIG = {
       to: 'Present',
       companyLink: 'https://example.com',
     },
-  ],
+  ],*/
   certifications: [
     {
       name: 'Anglia certificate of english',
