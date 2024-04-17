@@ -54,7 +54,7 @@ const CONFIG = {
   seo: {
     title: 'Portfolio of Luigi Penza',
     description: '',
-    imageURL: 'image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAJYAAACUCAMAAABGFyDbAAAAZlBMVEX///8AAADp6elFRUWlpaXNzc2zs7PKysr5+fmqqqrU1NSUlJSXl5ddXV26urr8/PzCwsJvb281NTXa2tokJCTh4eE6Ojqenp5TU1NNTU3v7++AgIAYGBhpaWkLCwt2dnaKioouLi5tQaUEAAACoklEQVR4nO2bW3eqMBBG5SZXQWoRi6L0///JA0oiy5NARybIw7ffhMWwCZOZtItsNgAAAAAAAExQHfytWyZxR+mmXhF80iYoon2Sf1kqvndlGtnLOxXueXdUGkmuTp4cljOyo/I0LjRku4hTEN6cvzu1uOaVovCbpLSIVlbs031LmoZJU08k1oKj9YqdxvXkG11eqyWz/XiFWneiepVarZi6qH5aa1NpZ8BHtWxt6kMLWtCCFrSgBS1oQQta0IIWtKAFLWhBC1rQgha0oAUtaEELWtCCFrSgBS1oLaXF8x0ft1aYrVAry30WK2at/JfHilXL/rGYBotTyz5aO64PV/VaJTFS2F4TMVmNaNFuETTtJQ6XlVZrV5HCePeL+L6h1WidSEmS3e4X5WxWGq2EEqJK+qtoA0zXOouzh3A7SSIiNHxWSq1QnEw1s0GJwzhYKq1YnAspVryfZv+vJcPTrPiKg1JLjlVJsmJrO2otmVeJ+u46SHOXrCXnoEuzsniWWRot2QepVryvsK1Mw+A3cZSW7az1/cFtEFy+wS3R6sJttRkEd0QfJFXRjpTbajAucgnnU63i0Vu8Q/4MLnpHdKFqMc/CVuEqQv8W/aHDmICKC/9OpWclF2tRW7/dQAN1cf0HROjrvj9QUaWsmt8qen3iYEe1OhrYBicSvul/Z4QtZj0GrOx+e4gsDQ3ZysT+t77FHMXvM9kqHAv/Lo/BkqWB2nIMtMKOvkIJK2p7bnsoex3teGSSyA5yGX32UFYeKy2RHd51yuKV2sz+3XtHlsWw8D0aPuffXwNO5p54BkE3WIaeeAaxkd4/l677sS8q5+ObWFTO52zVRorhTKyvTxuoSPn++8pI9uN9WkGFt8Z0b+fh6qr7nXVaAQAAAACAd/kHPcAgqXqtQrMAAAAASUVORK5CYII=',
+    imageURL: 'https://t4.ftcdn.net/jpg/05/53/37/45/240_F_553374592_yTB6XrshpvWfm4ufZYJLHzJkdgDk72ks.jpg',
   },
   social: {
     linkedin: 'luigipenza811',
@@ -77,11 +77,15 @@ const CONFIG = {
   },
   resume: {
     fileUrl:
-      'https://www.w3.org/WAI/ER/tests/xhtml/testfiles/resources/pdf/dummy.pdf', // Empty fileUrl will hide the `Download Resume` button.
+      'https://export-download.canva.com/Ee3gk/DAFjjvEe3gk/18/0-1809746279891683557.pdf?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAJHKNGJLC2J7OGJ6Q%2F20240417%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20240417T003058Z&X-Amz-Expires=31314&X-Amz-Signature=ead75fbc3b4183d46114684c3f79897b0bbba44a3dae6005c8a96d4ae0c8c726&X-Amz-SignedHeaders=host&response-content-disposition=attachment%3B%20filename%2A%3DUTF-8%27%27Minimalist%2520White%2520and%2520Grey%2520Professional%2520Resume.pdf&response-expires=Wed%2C%2017%20Apr%202024%2009%3A12%3A52%20GMT', // Empty fileUrl will hide the `Download Resume` button.
   },
   skills: [
     'Swift',
-    'C'
+    'C',
+    'Python',
+    'Java',
+    'SQL',
+    'Matlab',
   ],
   experiences: [
     {
@@ -94,24 +98,30 @@ const CONFIG = {
   ],
   certifications: [
     {
-      name: 'Lorem ipsum',
-      body: 'Lorem ipsum dolor sit amet',
-      year: 'March 2022',
-      link: 'https://example.com',
+      name: 'Anglia certificate of english',
+      body: 'Anglia certificate of english esol international CEFR B1',
+      year: 'March 2018',
+      link: '',
     },
   ],
   educations: [
     {
-      institution: 'Institution Name',
-      degree: 'Degree',
-      from: '2015',
-      to: '2019',
+      institution: 'Apple Academy',
+      degree: '...',
+      from: 'Present',
+      to: '2023',
     },
     {
-      institution: 'Institution Name',
-      degree: 'Degree',
-      from: '2012',
-      to: '2014',
+      institution: 'Università Federico II',
+      degree: 'Computer Science',
+      from: 'Present',
+      to: '2021',
+    },
+    {
+      institution: 'Istituto Statale d\'Istruzione Superiore Guido Tassinari',
+      degree: 'Diploma di Perito Informatico',
+      from: '2015',
+      to: '2020',
     },
   ],
   publications: [
@@ -137,7 +147,7 @@ const CONFIG = {
   // Display articles from your medium or dev account. (Optional)
   blog: {
     source: 'dev', // medium | dev
-    username: 'arifszn', // to hide blog section, keep it empty
+    username: '', // to hide blog section, keep it empty
     limit: 2, // How many articles to display. Max is 10.
   },
   googleAnalytics: {
@@ -149,11 +159,11 @@ const CONFIG = {
     snippetVersion: 6,
   },
   themeConfig: {
-    defaultTheme: 'lofi',
+    defaultTheme: 'dracula',
 
     // Hides the switch in the navbar
     // Useful if you want to support a single color mode
-    disableSwitch: false,
+    disableSwitch: true,
 
     // Should use the prefers-color-scheme media-query,
     // using user system preferences, instead of the hardcoded defaultTheme
