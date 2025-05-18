@@ -54,7 +54,7 @@ const CONFIG = {
 
   seo: {
     title: 'Portfolio of Luigi Penza',
-    description: 'CS student at Federico II, Student at Apple Developer Academy',
+    description: 'Master Degree in Computer Science @Federico II, Alumni @Apple Developer Academy',
     imageURL: 'https://t4.ftcdn.net/jpg/07/65/17/85/240_F_765178525_UfmSUIP8E40zatqSVIRzTIGaysGom2sD.jpg',
   },
 
@@ -107,16 +107,16 @@ const CONFIG = {
 
   educations: [
     {
-      institution: 'Stuent at Apple Developer Academy',
-      degree: '...',
-      from: 'Present',
-      to: '2023',
+      institution: 'Apple Academy @Federico II',
+      degree: 'Student at Apple Developer Academy',
+      from: '2023',
+      to: '2024',
     },
     {
       institution: 'Università Federico II',
-      degree: 'Computer Science',
-      from: 'Present',
-      to: '2021',
+      degree: 'Bachelor Degree in Computer Science',
+      from: '2021',
+      to: '2024',
     },
     {
       institution: 'Istituto Statale d\'Istruzione Superiore Guido Tassinari',
