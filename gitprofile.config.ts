@@ -80,7 +80,7 @@ const CONFIG = {
 
   resume: {
     fileUrl:
-      'https://export-download.canva.com/Ee3gk/DAFjjvEe3gk/18/0-1809746279891683557.pdf?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAJHKNGJLC2J7OGJ6Q%2F20240417%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20240417T003058Z&X-Amz-Expires=31314&X-Amz-Signature=ead75fbc3b4183d46114684c3f79897b0bbba44a3dae6005c8a96d4ae0c8c726&X-Amz-SignedHeaders=host&response-content-disposition=attachment%3B%20filename%2A%3DUTF-8%27%27Minimalist%2520White%2520and%2520Grey%2520Professional%2520Resume.pdf&response-expires=Wed%2C%2017%20Apr%202024%2009%3A12%3A52%20GMT', // Empty fileUrl will hide the `Download Resume` button.
+      'https://imgur.com/a/angANVa', // Empty fileUrl will hide the `Download Resume` button.
   },
 
   skills: [
